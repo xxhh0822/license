@@ -1,0 +1,41 @@
+server:
+  port: 8099
+  servlet:
+    context-path: /api
+
+license:
+  subject: ygzwms
+  publicAlias: publicCert
+  storePass: ygzwms5656
+#  licensePath: D:/License/license.lic
+  licensePath: /ygz/wms/license/license.lic
+#  publicKeysStorePath: D:/License/publicCerts.keystore
+  publicKeysStorePath: /ygz/wms/license/publicCerts.keystore
+#  uploadPath: D:/LicenseDemo/
+  uploadPath: /ygz/wms/
+
+##swagger
+swagger:
+  package: com.zp.license.controller
+  host: 127.0.0.1:8090
+  title: License-Client
+  version: v1.0
+  description: API
+  license: License
+  licenseUrl: https://blog.csdn.net/weixin_45151960
+  contact:
+    name: license
+    url: https://blog.csdn.net/weixin_45151960
+    email: 3293829450qq.com
+
+
+
+logging:
+  level:
+    com.boc.ljh: debug
+
+
+
+
+
+
